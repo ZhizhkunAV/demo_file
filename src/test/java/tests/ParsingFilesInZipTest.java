@@ -35,7 +35,7 @@ public class ParsingFilesInZipTest {
 
     @Test
     @DisplayName("Архив имеет содержимое")
-    void zipFileIsNotEmpty() throws Exception {
+    void zipFileIsNotEmptyTest() throws Exception {
         try (InputStream inputStream = cl.getResourceAsStream("Archive.zip")) {
             assert inputStream != null;
         }
