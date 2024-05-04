@@ -3,6 +3,7 @@ package tests;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +17,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 @DisplayName("Парсинг Json")
 public class JsonAnalysisTest {
+    private static final ObjectMapper mapper = new ObjectMapper();
+    private final ClassLoader cl = ParsingFilesInZipTest.class.getClassLoader();
 
     @Test
     @DisplayName("Распарсиваем Json файл используя библиотеку Jackson")
