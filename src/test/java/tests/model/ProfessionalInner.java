@@ -1,6 +1,6 @@
 package tests.model;
 
-public class professionalInner {
+public class ProfessionalInner {
     public String first;
     public String second;
     public String third;

@@ -20,13 +20,13 @@ public class TitleModel {
         this.names = names;
     }
 
-    public professionalInner getProfessional() {
+    public ProfessionalInner getProfessional() {
         return professional;
     }
 
-    public void setProfessional(professionalInner professional) {
+    public void setProfessional(ProfessionalInner professional) {
         this.professional = professional;
     }
 
-    public professionalInner professional;
+    public ProfessionalInner professional;
 }
