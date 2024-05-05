@@ -1,6 +1,6 @@
 {
   "title": "Some people",
-  "names": "Kevin",
+  "names": ["Kevin", "Olaf", "Eric"],
   "professional": {
     "first": "theacher",
     "second": "police officer",
